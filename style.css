@@ -1,0 +1,94 @@
+body {
+    font-family: 'Signika', sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 20px 30px;
+    background: transparent !important;
+}
+
+.navbar-brand .logo {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+}
+
+.navbar-nav .nav-link {
+    color: #ecf0f1 !important;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e74c3c !important;
+}
+
+.hero-section {
+    background-image: url('imgs/bg-hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-title {
+    font-family: 'Signika', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.btn-cta {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-cta:hover {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons i:hover {
+    color: #e74c3c;
+}
+
+.social-icons a i {
+    color: #ecf0f1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
