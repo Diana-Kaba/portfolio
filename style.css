@@ -55,6 +55,7 @@ a {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: capitalize;
+    animation: slideInLeft 1.5s ease-out;
 }
 
 .hero-description {
@@ -116,4 +117,15 @@ a {
 
 .fa-facebook-f {
     padding-left: 16px !important;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
