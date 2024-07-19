@@ -144,27 +144,8 @@ a {
     white-space: nowrap;
     margin: 0;
     font-size: 1.2rem;
+    text-transform: uppercase;
 }
-
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
 
 .me {
     height: 400px;
@@ -240,5 +221,14 @@ a {
     }
     to {
         background-size: 140% 100%;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
     }
 }
