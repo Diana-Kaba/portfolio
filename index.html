@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="imgs/logo.jpeg" alt="Logo" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +26,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav text-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -56,24 +59,27 @@
         <div class="d-flex align-items-end">
             <div class="container">
                 <div class="social-icons">
-                    <a href="#" class="text-dark mx-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-dark mx-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-dark mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100081434954982" class="text-dark mx-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/dikaba_" class="text-dark mx-2" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/diana-kaba-797505284" class="text-dark mx-2" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Diana-Kaba" class="text-dark mx-2" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>
 
-        <section class="marquee-section">
+        <!-- .marquee-section -->
+        <!-- <section class="marquee-section">
             <div class="marquee">
                 <p>Crafting future-ready websites &bull; Explore my journey through the world of web development &bull; Discover projects, skills, and the passion I bring to every line of code &bull; Crafting future-ready websites &bull; Explore my journey through the world of web development &bull; Discover projects, skills, and the passion I bring to every line of code &bull;</p>
             </div>
-        </section>
+        </section> -->
+        <!-- /.marquee-section -->
 
         <section id="about" class="about-section py-5">
             <div class="container">
                 <h2 class="section-title text-center">About Me</h2>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-2">
                         <img src="imgs/photo_2023-09-18_09-47-10.jpg" alt="About Me" class="img-fluid rounded me">
                     </div>
                     <div class="col-lg-6 d-flex flex-column justify-content-center">
@@ -134,11 +140,11 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="portfolio-item">
-                            <img src="imgs/bg-hero.jpeg" alt="Project 1" class="img-fluid rounded">
+                            <img src="imgs/project1.png" alt="Project 1" class="img-fluid rounded">
                             <div class="portfolio-content">
-                                <h4>Project Title 1</h4>
-                                <p>Brief description of the project.</p>
-                                <a href="#" class="btn btn-outline-dark">View Details</a>
+                                <h4>AS Haus Service</h4>
+                                <p>Business card website for a construction company.</p>
+                                <a href="http://shssrvc.atwebpages.com/" class="btn btn-outline-dark" target="_blank">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -174,9 +180,9 @@
                     <div class="col-lg-6 mb-4">
                         <p>If you have any questions or would like to work together, feel free to reach out!</p>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-envelope"></i>kabadiana327@gmail.com</li>
-                            <li><i class="fas fa-phone"></i>+380964587560</li>
-                            <li><i class="fas fa-map-marker-alt"></i>Kharkiv, Ukraine</li>
+                            <li><i class="fas fa-envelope p-2"></i>kabadiana327@gmail.com</li>
+                            <li><i class="fas fa-phone p-2"></i>+380964587560</li>
+                            <li><i class="fas fa-map-marker-alt p-2"></i>Kharkiv, Ukraine</li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
@@ -204,10 +210,11 @@
     <footer class="footer-section bg-dark text-light p-4">
         <div class="container text-center p-4">
             <ul class="list-unstyled d-flex justify-content-center mb-0">
-                <li class="mx-2"><a href="#home" class="text-light">Home</a></li>
-                <li class="mx-2"><a href="#about" class="text-light">About</a></li>
-                <li class="mx-2"><a href="#portfolio" class="text-light">Portfolio</a></li>
-                <li class="mx-2"><a href="#contact" class="text-light">Contact</a></li>
+                <li class="mx-2"><a href="#home" class="text-light foot-link">Home</a></li>
+                <li class="mx-2"><a href="#about" class="text-light foot-link">About</a></li>
+                <li class="mx-2"><a href="#skills" class="text-light foot-link">Skills</a></li>
+                <li class="mx-2"><a href="#portfolio" class="text-light foot-link">Portfolio</a></li>
+                <li class="mx-2"><a href="#contact" class="text-light foot-link">Contact</a></li>
             </ul>
             <p class="mt-4">&copy; 2024 Diana's Dev Portfolio. All Rights Reserved.</p>
         </div>

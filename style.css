@@ -34,9 +34,10 @@ a {
 }
 
 .hero-section {
-    background-image: url('imgs/artwork.png');
+    /* background-image: url('imgs/artwork.png'); */
+    background-image: url('imgs/bg-hero.jpeg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center center;
     height: 100vh;
     color: #fff;
@@ -68,7 +69,6 @@ a {
 
 .btn-cta {
     background-color: #c0392b;
-    border: 2px solid #2c3e50;
     padding: 10px 20px;
     font-size: 1.2rem;
     border-radius: 40px;
@@ -121,13 +121,12 @@ a {
     padding-left: 16px !important;
 }
 
-.marquee-section {
-    /* background-color: #2c3e50; */
+/* .marquee-section */
+/* .marquee-section {
     background-color: #0A1E36;
     color: #fff;
     font-family: 'Signika', sans-serif;
-    height: 50px; /* Adjusted to match the example site's height */
-    overflow: hidden;
+    height: 50px;
     display: flex;
     align-items: center;
 }
@@ -140,12 +139,13 @@ a {
 
 .marquee p {
     display: inline;
-    padding-left: 100%; /* Start outside the viewport */
+    padding-left: 100%;
     white-space: nowrap;
     margin: 0;
     font-size: 1.2rem;
     text-transform: uppercase;
-}
+} */
+/* /.marquee-section */
 
 .me {
     height: 400px;
@@ -160,7 +160,7 @@ a {
 
 .portfolio-section .portfolio-item img {
     width: 100%;
-    height: auto;
+    height: 214px;
     transition: transform 0.3s ease;
 }
 
@@ -204,6 +204,14 @@ a {
     color: #000;
 }
 
+.foot-link {
+    transition: .5s;
+}
+
+.foot-link:hover {
+    color: #e74c3c !important;
+}
+
 @keyframes slideInLeft {
     from {
         opacity: 0;
@@ -215,15 +223,6 @@ a {
     }
 }
 
-@keyframes zoomBackground {
-    from {
-        background-size: 100% 100%;
-    }
-    to {
-        background-size: 140% 100%;
-    }
-}
-
 @keyframes marquee {
     0% {
         transform: translateX(100%);
@@ -232,3 +231,12 @@ a {
         transform: translateX(-100%);
     }
 }
+
+/* @keyframes zoomBackground {
+    from {
+        background-size: 100% 100%;
+    }
+    to {
+        background-size: 140% 100%;
+    }
+} */
